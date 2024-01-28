@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<head>
+    <title>Student Registration</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+
+    <form id="myForm" action="index.php" method="post" >
+
+        <h1>Student Registration Form</h1>
+        <p>Fill in this form to register</p>
+        
+        <label for="fname">First Name  </label>
+        <input type="text" id="fname" name="fname" placeholder="Enter the First Name" required><br><br>
+
+        <label for="lname">Last Name </label>
+        <input type="text" id="lname" name="lname" placeholder="Enter the Last Name" required><br><br>
+
+        <label for="email">Email </label>
+        <input type="email" id="email" name="email" placeholder="Enter the Email id" required><br><br>
+
+        <label for="dob">Date of Birth: </label>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <label for="username">Set Username </label>
+        <input type="text" id="username" name="username" required><br><br>
+
+        <label for="password">Set Password </label>
+        <input type="password" id="password" name="password" required ><br><br>
+
+        <label for="mnumber">Mobile Number </label>
+        <input type="number" id="mnumber" name="mnumber" required ><br>
+
+        <p>Gender</p>
+
+        <input type="radio" id="male" name="title" >
+        <label for="male">Male </label><br>
+
+        <input type="radio" id="female" name="title">
+        <label for="female">Female </label><br>
+
+        <input type="radio" id="others" name="title">
+        <label for="others">Others</label><br><br>
+
+        <label for="course">Course </label>
+        <select id="course" name="course">
+            <option value="BE-Civil">BE-Civil </option>
+            <option value="BE-Mech">BE-Mechanical</option>
+            <option value="BE-CSE">BE-CSE</option>
+            <option value="BE-IT">BE-IT</option>
+            <option value="BE-ECE">BE-ECE</option>
+            <option value="BE-EEE">BE-EEE</option>
+        </select><br><br>
+
+        <input type="submit">
+
+
+    </form>
+
+
+
+
+</body>
+
+
+</html>
